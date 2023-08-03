@@ -8,7 +8,9 @@ from typing import Callable
 
 
 def make_multiplier(multiplier: float) -> Callable[[float], float]:
-    
+    '''a function that returns a function 
+    that multiplies a float by a float
+    '''
     return lambda k: k * multiplier
 
 

@@ -5,6 +5,7 @@
 
 
 def floor(n: float) -> int:
+    '''a function that reduces a float to an integer'''
     return int(n)
 
 

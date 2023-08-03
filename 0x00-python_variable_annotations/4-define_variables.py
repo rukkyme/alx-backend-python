@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-
 '''A module that annotates the variables'''
 
 

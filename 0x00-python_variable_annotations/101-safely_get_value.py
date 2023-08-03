@@ -13,8 +13,7 @@ Def = Union[T, None]
 
 
 def safely_get_value(dct: Mapping, key: Any, default: Def = None) -> Res:
-    '''a function gets the value from a
-    dictionary using the key'''
+    '''functions retrieves value from dictionary with key'''
     if key in dct:
         return dct[key]
     else:

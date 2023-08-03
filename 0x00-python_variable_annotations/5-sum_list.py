@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
-
-'''A python module for returning the sum of a list'''
+'''A python module that returns the sum of a list'''
 
 
 from typing import List
